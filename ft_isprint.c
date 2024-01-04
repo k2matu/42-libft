@@ -1,15 +1,18 @@
-#include <stdio.h>
-#include <ctype.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kmatjuhi <kmatjuhi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/10/24 09:53:43 by kmatjuhi          #+#    #+#             */
+/*   Updated: 2023/10/24 14:06:06 by kmatjuhi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-	if (c >= 32 && c <= 126)
+	if (32 <= c && c <= 126)
 		return (1);
 	return (0);
-}
-
-int main(void)
-{
-	printf("%d\n", ft_isprint(127));
-	printf("%d", isprint(127));
 }

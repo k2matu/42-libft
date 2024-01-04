@@ -1,15 +1,18 @@
-#include <stdio.h>
-#include <ctype.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kmatjuhi <kmatjuhi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/10/24 11:37:00 by kmatjuhi          #+#    #+#             */
+/*   Updated: 2023/10/24 14:06:34 by kmatjuhi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if ('A' <= c && c <= 'Z')
 		return (c + 32);
 	return (c);
-}
-
-int main(void)
-{
-	printf("%c", ft_tolower('A'));
-	printf("%c", tolower('A'));
 }
