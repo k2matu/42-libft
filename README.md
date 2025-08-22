@@ -16,7 +16,11 @@ cd libft
 ```
 make
 ```
-4. Include the compiled libft.a in your project:
+4. In your program (e.g., my_program.c), include the libft header at the top:
+```
+#include "libft.h"
+```
+5. Compile your program:
 ```
 gcc -o my_program my_program.c -L. -lft
 ```
