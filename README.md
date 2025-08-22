@@ -14,11 +14,11 @@ cd libft
 make
 cd ..
 ```
-4. In your program (e.g., my_program.c), include the libft header at the top:
+3. In your program (e.g., my_program.c), include the libft header at the top:
 ```
 #include "libft.h"
 ```
-5. Compile your program:
+4. Compile your program:
 ```
 gcc -o my_program my_program.c -L./libft -lft -I./libft
 ```
