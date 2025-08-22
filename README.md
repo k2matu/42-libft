@@ -24,7 +24,8 @@ cd ..
 
 To use **Libft** functions in your own project:
 
-1. Include the Libft header in your C source file (e.g., my_program.c):
+1. Include the Libft header in your C source file
+####e.g., my_program.c:
 ```c
 #include "libft.h"
 #include <stdio.h>
