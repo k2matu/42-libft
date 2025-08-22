@@ -9,7 +9,7 @@ This library serves as a foundation for building more complex programs and demon
 - `make`
 
 ## Compiling
-To use **Libft** in your project, follow these steps:
+To compile **Libft** in your project, follow these steps:
 1. Inside your project repository, clone the 42-libft repository (this will create a `libft/` folder inside your project):
 ```
 git clone git@github.com:k2matu/42-libft.git libft
