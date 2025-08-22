@@ -23,8 +23,9 @@ cd ..
 ## Usage
 
 To use **Libft** functions in your own project:
+
 1. Include the Libft header in your C source file (e.g., my_program.c):
-```
+```c
 #include "libft.h"
 #include <stdio.h>
 
@@ -37,4 +38,10 @@ int main(void) {
 2. Compile your program and link it with **Libft**:
 ```
 gcc -o my_program my_program.c -L./libft -lft -I./libft
+```
+3. Run your program
+```
+./my_program
+# Output:
+# A
 ```
