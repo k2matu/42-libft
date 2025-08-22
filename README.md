@@ -8,13 +8,11 @@ To use Libft in your project, follow these steps:
 ```
 git clone git@github.com:k2matu/42-libft.git libft
 ```
-2. Navigate into the directory:
+2. Navigate into the libft directory and compile the library:
 ```
 cd libft
-```
-3. Compile the library using make:
-```
 make
+cd ..
 ```
 4. In your program (e.g., my_program.c), include the libft header at the top:
 ```
