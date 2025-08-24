@@ -1,4 +1,3 @@
-
 # Libft
 **Libft** is my own custom library, developed as part of the curriculum at Hive Helsinki. It contains a collection of standard C library functions, as well as some additional utility functions that are frequently used in programming projects. 
 
