@@ -43,6 +43,8 @@ gcc -o my_program my_program.c -L./libft -lft -I./libft
 3. Run your program
 ```
 ./my_program
-# Output:
-# A
+```
+Output:
+```
+A
 ```
